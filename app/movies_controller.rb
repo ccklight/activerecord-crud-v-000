@@ -90,7 +90,7 @@ def can_update_all_records_at_once
     Movie.all.each{|movie|
     movie.update(title: "A Movie")}
         end
-end
+  end
 
 
 def can_destroy_a_single_item
