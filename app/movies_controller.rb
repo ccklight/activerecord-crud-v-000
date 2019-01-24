@@ -70,7 +70,6 @@ def can_be_found_updated_and_saved
 end
 
 
-
 def can_update_using_update_method
   Movie.create(title: "Wat?")
   movie = Movie.create(title: "Wat?")
@@ -86,7 +85,6 @@ def can_update_multiple_items_at_once
         end
     Movie.all.each{|movie|
     movie.update(title: "A Movie")}
-
 end
 
 
